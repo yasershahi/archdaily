@@ -50,15 +50,19 @@ reflector --country France,Germany --age 12 --protocol https --sort rate --save 
 ```
 
 ## Post-install
+**Remove Stuff**
+```
+sudo pacman -Rs gnome-weather gnome-clocks gnome-music gnome-calendar gnome-calculator gnome-maps gnome-contacts snapshot gnome-text-editor gnome-tour gnome-connections simple-scan totem gnome-logs htop vim gnome-software epiphany
+```
 
-### Restore GNOME-specific Settings
+**Restore GNOME-specific Settings**
 
 ```
 dconf load /org/gnome/ < desktop-config
 ```
 
 ```
-sudo tailscale set --operator=$USER
+gsettings set org.gnome.mutter center-new-windows true
 ```
 
 ### Install GNOME Extensions
@@ -112,7 +116,6 @@ sudo tailscale set --operator=$USER
 - [gnome-contacts](https://flathub.org/apps/org.gnome.Contacts)
 - [gnome-maps](https://flathub.org/apps/org.gnome.Maps)
 - [gnome-weather](https://flathub.org/apps/org.gnome.Weather)
-- [Papers](https://flathub.org/apps/org.gnome.Papers)
 - [gnome-calculator](https://flathub.org/apps/org.gnome.Calculator)
 - [Web](https://flathub.org/apps/org.gnome.Epiphany)
 - [Text Editor](https://flathub.org/apps/org.gnome.TextEditor)
@@ -120,7 +123,7 @@ sudo tailscale set --operator=$USER
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale gnome-tweaks distrobox
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale gnome-tweaks distrobox bc ttf-jetbrains-mono
 ```
 
 **AUR**
@@ -128,6 +131,7 @@ gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daem
 - [ddev-bin](https://aur.archlinux.org/packages/ddev-bin)
 - [google-chrome-dev](https://aur.archlinux.org/packages/google-chrome-dev)
 - [mutter-performance](https://aur.archlinux.org/packages/mutter-performance)
+- [adobe-base-14-fonts](https://aur.archlinux.org/packages/adobe-base-14-fonts)
 
 
 **other**
@@ -136,6 +140,7 @@ gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daem
 - [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
 - [Docker](https://wiki.archlinux.org/title/Docker)
 - [PHPStorm](https://www.jetbrains.com/resources/eap/)
+- [EnvyControl](https://github.com/bayasdev/envycontrol)
 
 **Chrome Extensions**
 
