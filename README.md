@@ -106,9 +106,6 @@ sudo tailscale set --operator=$USER
 - [Ptyxis](https://flathub.org/apps/app.devsuite.Ptyxis)
 - [Apostrophe](https://flathub.org/apps/org.gnome.gitlab.somas.Apostrophe)
 - [Boxes](https://flathub.org/apps/org.gnome.Boxes)
-
-**Apps from Arch Repos**
-
 - [gnome-calendar](https://flathub.org/apps/org.gnome.Calendar)
 - [Image Viewer](https://flathub.org/apps/org.gnome.Loupe)
 - [gnome-clocks](https://flathub.org/apps/org.gnome.clocks)
