@@ -64,6 +64,30 @@ I proceeded with a mostly default installation using `archinstall`, configuring 
 The installation was very quick, and I encountered no issues.
 
 ## Post-install
+Set the fastest mirrors:
+```
+sudo pacman -S reflector
+```
+
+```
+sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
+```
+
+```
+sudo reflector -c Germany,Finland -l 10 -p https --save /etc/pacman.d/mirrorlist
+```
+
+```
+sudo pacman -Syyu
+```
+
+Edit `/etc/pacman.conf`
+
+- Uncomment "Color"
+- Add "ILoveCandy"
+- Uncomment "ParallelDownloads"
+
+
 **Remove Stuff**
 ```
 sudo pacman -Rs gnome-tour gnome-connections gnome-music simple-scan totem gnome-logs htop vim gnome-software epiphany
@@ -79,9 +103,16 @@ dconf load /org/gnome/ < desktop-config
 gsettings set org.gnome.mutter center-new-windows true
 ```
 
-Debian on distobox
+**Debian on distobox**
+
 ```
 distrobox create --name debian --image quay.io/toolbx-images/debian-toolbox:12
+```
+
+**Bluetooth**
+
+```
+sudo systemctl enable --now bluetooth
 ```
 
 ### Install GNOME Extensions
@@ -134,7 +165,7 @@ distrobox create --name debian --image quay.io/toolbx-images/debian-toolbox:12
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib
 ```
 
 **AUR**
