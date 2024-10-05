@@ -81,7 +81,6 @@ gsettings set org.gnome.mutter center-new-windows true
 
 ### Install GNOME Extensions
 
-- [Auto Activities](https://extensions.gnome.org/extension/5500/auto-activities/)
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 - [Hot Edge](https://extensions.gnome.org/extension/4222/hot-edge/)
 - [Impatience](https://extensions.gnome.org/extension/277/impatience/)
@@ -91,8 +90,7 @@ gsettings set org.gnome.mutter center-new-windows true
 
 ### Apps & Packages
 
-**Flatpaks**
-
+**Flatpaks** 
 - [Authenticator](https://flathub.org/apps/com.belmoussaoui.Authenticator)
 - [Gapless](https://flathub.org/apps/com.github.neithern.g4music)
 - [Obsidian](https://flathub.org/apps/md.obsidian.Obsidian)
@@ -137,7 +135,7 @@ gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daem
 **AUR**
 
 - [ddev-bin](https://aur.archlinux.org/packages/ddev-bin)
-- [google-chrome-dev](https://aur.archlinux.org/packages/google-chrome-dev)
+- [brave-bin](https://aur.archlinux.org/packages/brave-bin)
 - [mutter-performance](https://aur.archlinux.org/packages/mutter-performance)
 - [adobe-base-14-fonts](https://aur.archlinux.org/packages/adobe-base-14-fonts)
 
@@ -150,7 +148,7 @@ gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daem
 - [PHPStorm](https://www.jetbrains.com/resources/eap/)
 - [EnvyControl](https://github.com/bayasdev/envycontrol)
 
-**Chrome Extensions**
+**Brave Theme & Extensions**
 
 - [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
 - [enhanced-h264ify](https://chromewebstore.google.com/detail/enhanced-h264ify/omkfmpieigblcllmkgbflkikinpkodlk)
@@ -158,6 +156,7 @@ gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daem
 - [Open in WordPress playground](https://chromewebstore.google.com/detail/open-in-wordpress-playgro/khfpfafeepbfdhggfoalfmbhkmjkolmo)
 - [uBlock Origin](https://ublockorigin.com/)
 - [Wallabagger](https://chromewebstore.google.com/detail/wallabagger/gbmgphmejlcoihgedabhgjdkcahacjlj)
+- [Head in the clouds](https://chromewebstore.google.com/detail/head-in-the-clouds/hfmcnpnageikmdhipbahnhdloljkcona)
 
 
 ## Maintenance
