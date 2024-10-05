@@ -52,7 +52,7 @@ reflector --country France,Germany --age 12 --protocol https --sort rate --save 
 ## Post-install
 **Remove Stuff**
 ```
-sudo pacman -Rs gnome-weather gnome-clocks gnome-music gnome-calendar gnome-calculator gnome-maps gnome-contacts snapshot gnome-text-editor gnome-tour gnome-connections simple-scan totem gnome-logs htop vim gnome-software epiphany
+sudo pacman -Rs gnome-tour gnome-connections simple-scan totem gnome-logs htop vim gnome-software epiphany
 ```
 
 **Restore GNOME-specific Settings**
@@ -110,20 +110,13 @@ gsettings set org.gnome.mutter center-new-windows true
 - [Ptyxis](https://flathub.org/apps/app.devsuite.Ptyxis)
 - [Apostrophe](https://flathub.org/apps/org.gnome.gitlab.somas.Apostrophe)
 - [Boxes](https://flathub.org/apps/org.gnome.Boxes)
-- [gnome-calendar](https://flathub.org/apps/org.gnome.Calendar)
-- [Image Viewer](https://flathub.org/apps/org.gnome.Loupe)
-- [gnome-clocks](https://flathub.org/apps/org.gnome.clocks)
-- [gnome-contacts](https://flathub.org/apps/org.gnome.Contacts)
-- [gnome-maps](https://flathub.org/apps/org.gnome.Maps)
-- [gnome-weather](https://flathub.org/apps/org.gnome.Weather)
-- [gnome-calculator](https://flathub.org/apps/org.gnome.Calculator)
 - [Web](https://flathub.org/apps/org.gnome.Epiphany)
-- [Text Editor](https://flathub.org/apps/org.gnome.TextEditor)
+- [Flatsweep](https://flathub.org/apps/io.github.giantpinkrobots.flatsweep)
 
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale gnome-tweaks distrobox bc ttf-jetbrains-mono
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale gnome-tweaks distrobox bc ttf-jetbrains-mono ffmpegthumbnailer
 ```
 
 **AUR**

@@ -31,6 +31,11 @@ flatpaks=(
     "flathub io.github.seadve.Kooha"
     "org.localsend.localsend_app"
     "app.devsuite.Ptyxis"
+    "io.github.giantpinkrobots.flatsweep"
+    "org.gnome.Epiphany"
+    "org.gnome.Boxes"
+    "org.gnome.gitlab.somas.Apostrophe"
+    
  )
 
 # Loop through the array and install the flatpak apps
