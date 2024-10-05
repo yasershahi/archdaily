@@ -43,16 +43,30 @@ dconf dump /org/gnome/ > desktop-config
 
 
 
-## Install
-**Fastest Mirrors**
-```
-reflector --country France,Germany --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
-```
+## Installation Process
+
+I downloaded the latest Arch ISO and used Fedora Media Writer to create a bootable USB stick. After that, I booted from the USB.
+
+Next, I connected my phone via a cable and enabled USB tethering. Arch Linux automatically detected the connection without any further configuration.
+
+Before running `archinstall`, I made a couple of changes:
+
+1. Added the nameservers `8.8.8.8` and `1.1.1.1` to `/etc/resolv.conf`.
+2. Uncommented the parallel download option in `/etc/pacman.conf`.
+
+I proceeded with a mostly default installation using `archinstall`, configuring the following:
+
+- Set country mirrors to Finland, Sweden, and Denmark.
+- Chose a Btrfs disk layout.
+- Selected the Linux and Linux LTS kernels.
+- Chose GNOME desktop as type of installation.
+
+The installation was very quick, and I encountered no issues.
 
 ## Post-install
 **Remove Stuff**
 ```
-sudo pacman -Rs gnome-tour gnome-connections simple-scan totem gnome-logs htop vim gnome-software epiphany
+sudo pacman -Rs gnome-tour gnome-connections gnome-music simple-scan totem gnome-logs htop vim gnome-software epiphany
 ```
 
 **Restore GNOME-specific Settings**
@@ -112,6 +126,7 @@ gsettings set org.gnome.mutter center-new-windows true
 - [Boxes](https://flathub.org/apps/org.gnome.Boxes)
 - [Web](https://flathub.org/apps/org.gnome.Epiphany)
 - [Flatsweep](https://flathub.org/apps/io.github.giantpinkrobots.flatsweep)
+- [Iconic](https://flathub.org/apps/nl.emphisia.icon)
 
 **Packages from Arch Repos**
 

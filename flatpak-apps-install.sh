@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# List of flatpak apps to be installed
+# List of Flatpak apps to be installed
 flatpaks=(
     "com.belmoussaoui.Authenticator"
     "com.github.neithern.g4music"
@@ -20,29 +20,40 @@ flatpaks=(
     "org.nickvision.tagger"
     "org.gnome.Decibels"
     "org.videolan.VLC"
-    "flathub dev.geopjr.Tuba"
+    "dev.geopjr.Tuba"  # Removed 'flathub' prefix
     "com.github.wwmm.easyeffects"
     "github.celluloid_player.Celluloid"
     "ca.desrt.dconf-editor"
-    "flathub com.getpostman.Postman"
+    "com.getpostman.Postman"  # Removed 'flathub' prefix
     "com.mongodb.Compass"
     "fr.romainvigier.MetadataCleaner"
     "com.belmoussaoui.Decoder"
-    "flathub io.github.seadve.Kooha"
+    "io.github.seadve.Kooha"
     "org.localsend.localsend_app"
     "app.devsuite.Ptyxis"
     "io.github.giantpinkrobots.flatsweep"
     "org.gnome.Epiphany"
     "org.gnome.Boxes"
     "org.gnome.gitlab.somas.Apostrophe"
-    
- )
+    "nl.emphisia.icon"
+)
 
-# Loop through the array and install the flatpak apps
-for app in "${flatpaks[@]}"; do
+# Function to install Flatpak apps
+install_flatpak() {
+    local app="$1"
     echo "Installing $app..."
-    flatpak install -y flathub "$app"
+    if flatpak install -y flathub "$app"; then
+        echo "$app installed successfully."
+    else
+        echo "Failed to install $app." >&2
+    fi
     echo "----------------------------------"
+}
+
+# Loop through the array and install the Flatpak apps
+for app in "${flatpaks[@]}"; do
+    install_flatpak "$app"
 done
 
 echo "Flatpak installation complete!"
+
