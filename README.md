@@ -79,6 +79,11 @@ dconf load /org/gnome/ < desktop-config
 gsettings set org.gnome.mutter center-new-windows true
 ```
 
+Debian on distobox
+```
+distrobox create --name debian --image quay.io/toolbx-images/debian-toolbox:12
+```
+
 ### Install GNOME Extensions
 
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
@@ -129,7 +134,7 @@ gsettings set org.gnome.mutter center-new-windows true
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale gnome-tweaks distrobox bc ttf-jetbrains-mono ffmpegthumbnailer
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx
 ```
 
 **AUR**
@@ -138,17 +143,70 @@ gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daem
 - [brave-bin](https://aur.archlinux.org/packages/brave-bin)
 - [mutter-performance](https://aur.archlinux.org/packages/mutter-performance)
 - [adobe-base-14-fonts](https://aur.archlinux.org/packages/adobe-base-14-fonts)
+- [EnvyControl](https://github.com/bayasdev/envycontrol)
+
+to set graphics mode to integrated:
+
+```
+sudo envycontrol -s integrated
+```
+
+to set graphics mode to hybrid and enable fine-grained power control:
+
+```
+sudo envycontrol -s hybrid --rtd3
+```
+
 
 
 **other**
 
 - [spotdl](https://github.com/spotDL/spotify-downloader)
-- [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
-- [Docker](https://wiki.archlinux.org/title/Docker)
-- [PHPStorm](https://www.jetbrains.com/resources/eap/)
-- [EnvyControl](https://github.com/bayasdev/envycontrol)
 
-**Brave Theme & Extensions**
+```
+pipx install spotdl
+```
+
+- [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+```
+
+- [Docker](https://wiki.archlinux.org/title/Docker)
+
+```
+sudo pacman -S docker docker-compose
+```
+
+```
+sudo usermod -aG docker ${USER}
+```
+
+```
+newgrp docker
+```
+
+```
+sudo systemctl enable --now docker.socket
+```
+
+
+- [PHPStorm](https://www.jetbrains.com/resources/eap/)
+
+First I downloaded EAP version from the link then
+
+```
+sudo tar -xzf PhpStorm-*.tar.gz -C /opt
+```
+
+From the extracted directory run `PhpStorm.sh`
+
+After loging to Jetbrains account and activing it, I created the desktop entry from Tools > Create Desktop Entry.
+
+
+
+**Brave Extensions**
 
 - [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
 - [enhanced-h264ify](https://chromewebstore.google.com/detail/enhanced-h264ify/omkfmpieigblcllmkgbflkikinpkodlk)
@@ -156,7 +214,6 @@ gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daem
 - [Open in WordPress playground](https://chromewebstore.google.com/detail/open-in-wordpress-playgro/khfpfafeepbfdhggfoalfmbhkmjkolmo)
 - [uBlock Origin](https://ublockorigin.com/)
 - [Wallabagger](https://chromewebstore.google.com/detail/wallabagger/gbmgphmejlcoihgedabhgjdkcahacjlj)
-- [Head in the clouds](https://chromewebstore.google.com/detail/head-in-the-clouds/hfmcnpnageikmdhipbahnhdloljkcona)
 
 
 ## Maintenance
