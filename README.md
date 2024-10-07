@@ -90,7 +90,7 @@ Edit `/etc/pacman.conf`
 
 **Remove Stuff**
 ```
-sudo pacman -Rs gnome-tour gnome-connections gnome-music simple-scan totem gnome-logs htop vim gnome-software epiphany
+sudo pacman -Rs gnome-tour  gnome-music  gnome-software 
 ```
 
 **Restore GNOME-specific Settings**
@@ -158,14 +158,14 @@ sudo systemctl enable --now bluetooth
 - [Ptyxis](https://flathub.org/apps/app.devsuite.Ptyxis)
 - [Apostrophe](https://flathub.org/apps/org.gnome.gitlab.somas.Apostrophe)
 - [Boxes](https://flathub.org/apps/org.gnome.Boxes)
-- [Web](https://flathub.org/apps/org.gnome.Epiphany)
 - [Flatsweep](https://flathub.org/apps/io.github.giantpinkrobots.flatsweep)
 - [Iconic](https://flathub.org/apps/nl.emphisia.icon)
+- [qBittorrent](https://flathub.org/apps/org.qbittorrent.qBittorrent)
 
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy
 ```
 
 **AUR**
@@ -175,6 +175,7 @@ gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daem
 - [mutter-performance](https://aur.archlinux.org/packages/mutter-performance)
 - [adobe-base-14-fonts](https://aur.archlinux.org/packages/adobe-base-14-fonts)
 - [EnvyControl](https://github.com/bayasdev/envycontrol)
+- [Figma Agent for Linux](https://github.com/neetly/figma-agent-linux)
 
 to set graphics mode to integrated:
 
@@ -245,6 +246,7 @@ After loging to Jetbrains account and activing it, I created the desktop entry f
 - [Open in WordPress playground](https://chromewebstore.google.com/detail/open-in-wordpress-playgro/khfpfafeepbfdhggfoalfmbhkmjkolmo)
 - [uBlock Origin](https://ublockorigin.com/)
 - [Wallabagger](https://chromewebstore.google.com/detail/wallabagger/gbmgphmejlcoihgedabhgjdkcahacjlj)
+- [User-Agent Switcher and Manager](https://chromewebstore.google.com/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg)
 
 
 ## Maintenance

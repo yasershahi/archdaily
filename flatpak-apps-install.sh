@@ -32,10 +32,10 @@ flatpaks=(
     "org.localsend.localsend_app"
     "app.devsuite.Ptyxis"
     "io.github.giantpinkrobots.flatsweep"
-    "org.gnome.Epiphany"
     "org.gnome.Boxes"
     "org.gnome.gitlab.somas.Apostrophe"
     "nl.emphisia.icon"
+    "org.qbittorrent.qBittorrent"
 )
 
 # Function to install Flatpak apps
