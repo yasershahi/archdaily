@@ -128,7 +128,6 @@ sudo systemctl enable --now bluetooth
 
 **Flatpaks** 
 - [Authenticator](https://flathub.org/apps/com.belmoussaoui.Authenticator)
-- [Gapless](https://flathub.org/apps/com.github.neithern.g4music)
 - [Obsidian](https://flathub.org/apps/md.obsidian.Obsidian)
 - [Newsflash](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
 - [Telegram](https://flathub.org/apps/org.telegram.desktop)
@@ -165,7 +164,7 @@ sudo systemctl enable --now bluetooth
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop
 ```
 
 **AUR**
