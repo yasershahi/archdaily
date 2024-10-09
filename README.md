@@ -165,11 +165,12 @@ sudo systemctl enable --now bluetooth
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer
 ```
 
 **AUR**
 
+- [paru](https://aur.archlinux.org/packages/paru)
 - [ddev-bin](https://aur.archlinux.org/packages/ddev-bin)
 - [brave-bin](https://aur.archlinux.org/packages/brave-bin)
 - [mutter-performance](https://aur.archlinux.org/packages/mutter-performance)
