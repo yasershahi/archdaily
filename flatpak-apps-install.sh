@@ -3,7 +3,6 @@
 # List of Flatpak apps to be installed
 flatpaks=(
     "com.belmoussaoui.Authenticator"
-    "com.github.neithern.g4music"
     "md.obsidian.Obsidian"
     "io.gitlab.news_flash.NewsFlash"
     "org.telegram.desktop"
