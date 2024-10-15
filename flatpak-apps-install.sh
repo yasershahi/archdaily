@@ -7,7 +7,6 @@ flatpaks=(
     "io.gitlab.news_flash.NewsFlash"
     "org.telegram.desktop"
     "io.github.seadve.Mousai"
-    "org.nickvision.tubeconverter"
     "net.agalwood.Motrix"
     "org.gnome.Geary"
     "app.drey.Dialect"

@@ -132,7 +132,6 @@ sudo systemctl enable --now bluetooth
 - [Newsflash](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
 - [Telegram](https://flathub.org/apps/org.telegram.desktop)
 - [Mousai](https://flathub.org/apps/io.github.seadve.Mousai)
-- [Parabolic](https://flathub.org/apps/org.nickvision.tubeconverter)
 - [Motrix](https://flathub.org/apps/net.agalwood.Motrix)
 - [Geary](https://flathub.org/apps/org.gnome.Geary)
 - [Dialect](https://flathub.org/apps/app.drey.Dialect)
@@ -164,7 +163,7 @@ sudo systemctl enable --now bluetooth
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader
 ```
 
 **AUR**
