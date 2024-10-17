@@ -115,6 +115,12 @@ distrobox create --name debian --image quay.io/toolbx-images/debian-toolbox:12
 sudo systemctl enable --now bluetooth
 ```
 
+**GNOME Optimus**
+
+```
+sudo systemctl enable --now switcheroo-control.service 
+```
+
 ### Install GNOME Extensions
 
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
@@ -143,7 +149,6 @@ sudo systemctl enable --now bluetooth
 - [Tagger](https://flathub.org/apps/org.nickvision.tagger)
 - [Decibels](https://flathub.org/apps/org.gnome.Decibels)
 - [VLC](https://flathub.org/apps/org.videolan.VLC)
-- [Tuba](https://flathub.org/apps/dev.geopjr.Tuba)
 - [Easy Effects](https://flathub.org/apps/com.github.wwmm.easyeffects)
 - [Postman](https://flathub.org/apps/com.getpostman.Postman)
 - [Dconf Editor](https://flathub.org/apps/ca.desrt.dconf-editor)
@@ -159,11 +164,13 @@ sudo systemctl enable --now bluetooth
 - [Flatsweep](https://flathub.org/apps/io.github.giantpinkrobots.flatsweep)
 - [Iconic](https://flathub.org/apps/nl.emphisia.icon)
 - [qBittorrent](https://flathub.org/apps/org.qbittorrent.qBittorrent)
+- [Emote](https://flathub.org/apps/com.tomjwatson.Emote)
+- [Add Water](https://flathub.org/apps/dev.qwery.AddWater)
 
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox-developer-edition otf-fira-sans otf-fira-mono
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox-developer-edition otf-fira-sans otf-fira-mono plymouth
 ```
 
 **AUR**
@@ -174,7 +181,6 @@ gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daem
 - [mutter-performance](https://aur.archlinux.org/packages/mutter-performance)
 - [adobe-base-14-fonts](https://aur.archlinux.org/packages/adobe-base-14-fonts)
 - [EnvyControl](https://github.com/bayasdev/envycontrol)
-- [Figma Agent for Linux](https://github.com/neetly/figma-agent-linux)
 
 to set graphics mode to integrated:
 
@@ -188,6 +194,8 @@ to set graphics mode to hybrid and enable fine-grained power control:
 sudo envycontrol -s hybrid --rtd3
 ```
 
+
+- [Figma Agent for Linux](https://github.com/neetly/figma-agent-linux)
 
 
 **other**
@@ -235,6 +243,8 @@ From the extracted directory run `PhpStorm.sh`
 
 After loging to Jetbrains account and activing it, I created the desktop entry from Tools > Create Desktop Entry.
 
+OR get it from AUR:
+[phpstorm-eap](https://aur.archlinux.org/packages/phpstorm-eap)
 
 
 **Brave Extensions**
@@ -247,6 +257,14 @@ After loging to Jetbrains account and activing it, I created the desktop entry f
 - [Wallabagger](https://chromewebstore.google.com/detail/wallabagger/gbmgphmejlcoihgedabhgjdkcahacjlj)
 - [User-Agent Switcher and Manager](https://chromewebstore.google.com/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg)
 
+### Kernel Parameters
+
+```
+cd /boot/loader/entries
+```
+
+edit entry and add:
+`quiet splash`
 
 ## Maintenance
 ### Timeshift

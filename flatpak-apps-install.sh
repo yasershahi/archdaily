@@ -11,18 +11,17 @@ flatpaks=(
     "org.gnome.Geary"
     "app.drey.Dialect"
     "org.gnome.gitlab.YaLTeR.VideoTrimmer"
-    "github.mrvladus.List"
+    "io.github.mrvladus.List"
     "org.gnome.design.Contrast"
     "page.kramo.Sly"
     "org.inkscape.Inkscape"
     "org.nickvision.tagger"
     "org.gnome.Decibels"
     "org.videolan.VLC"
-    "dev.geopjr.Tuba"  # Removed 'flathub' prefix
     "com.github.wwmm.easyeffects"
-    "github.celluloid_player.Celluloid"
+    "io.github.celluloid_player.Celluloid"
     "ca.desrt.dconf-editor"
-    "com.getpostman.Postman"  # Removed 'flathub' prefix
+    "com.getpostman.Postman"
     "com.mongodb.Compass"
     "fr.romainvigier.MetadataCleaner"
     "com.belmoussaoui.Decoder"
@@ -34,6 +33,8 @@ flatpaks=(
     "org.gnome.gitlab.somas.Apostrophe"
     "nl.emphisia.icon"
     "org.qbittorrent.qBittorrent"
+    "com.tomjwatson.Emote"
+    "dev.qwery.AddWater"
 )
 
 # Function to install Flatpak apps
