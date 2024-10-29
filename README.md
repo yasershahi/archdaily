@@ -161,7 +161,7 @@ sudo systemctl enable --now switcheroo-control.service
 - [Ptyxis](https://flathub.org/apps/app.devsuite.Ptyxis)
 - [Apostrophe](https://flathub.org/apps/org.gnome.gitlab.somas.Apostrophe)
 - [Boxes](https://flathub.org/apps/org.gnome.Boxes)
-- [Flatsweep](https://flathub.org/apps/io.github.giantpinkrobots.flatsweep)
+- [Warehouse](https://flathub.org/apps/io.github.flattool.Warehouse)
 - [Iconic](https://flathub.org/apps/nl.emphisia.icon)
 - [qBittorrent](https://flathub.org/apps/org.qbittorrent.qBittorrent)
 - [Emote](https://flathub.org/apps/com.tomjwatson.Emote)
@@ -170,7 +170,7 @@ sudo systemctl enable --now switcheroo-control.service
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox-developer-edition otf-fira-sans otf-fira-mono plymouth
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox-developer-edition otf-fira-sans otf-fira-mono plymouth inter-font ufw
 ```
 
 **AUR**
@@ -196,6 +196,7 @@ sudo envycontrol -s hybrid --rtd3
 
 
 - [Figma Agent for Linux](https://github.com/neetly/figma-agent-linux)
+- [otf-geist](https://aur.archlinux.org/packages/otf-geist)
 
 
 **other**

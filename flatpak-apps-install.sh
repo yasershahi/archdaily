@@ -28,7 +28,7 @@ flatpaks=(
     "io.github.seadve.Kooha"
     "org.localsend.localsend_app"
     "app.devsuite.Ptyxis"
-    "io.github.giantpinkrobots.flatsweep"
+    "io.github.flattool.Warehouse"
     "org.gnome.Boxes"
     "org.gnome.gitlab.somas.Apostrophe"
     "nl.emphisia.icon"
