@@ -166,16 +166,18 @@ sudo systemctl enable --now switcheroo-control.service
 - [qBittorrent](https://flathub.org/apps/org.qbittorrent.qBittorrent)
 - [Emote](https://flathub.org/apps/com.tomjwatson.Emote)
 - [Add Water](https://flathub.org/apps/dev.qwery.AddWater)
+- [Dev Toolbox](https://flathub.org/apps/me.iepure.devtoolbox)
 
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox-developer-edition otf-fira-sans otf-fira-mono plymouth inter-font ufw
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox-developer-edition otf-fira-sans otf-fira-mono plymouth inter-font ufw python-openai python-polib poedit
 ```
 
 **AUR**
 
 - [paru](https://aur.archlinux.org/packages/paru)
+- [aur-auto-vote-git](https://aur.archlinux.org/packages/aur-auto-vote-git)
 - [ddev-bin](https://aur.archlinux.org/packages/ddev-bin)
 - [visual-studio-code-bin](https://aur.archlinux.org/packages/visual-studio-code-bin)
 - [mutter-performance](https://aur.archlinux.org/packages/mutter-performance)
@@ -197,6 +199,7 @@ sudo envycontrol -s hybrid --rtd3
 
 - [Figma Agent for Linux](https://github.com/neetly/figma-agent-linux)
 - [otf-geist](https://aur.archlinux.org/packages/otf-geist)
+- [wordpress-studio-git](https://aur.archlinux.org/packages/wordpress-studio-git)
 
 
 **other**

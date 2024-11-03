@@ -35,6 +35,7 @@ flatpaks=(
     "org.qbittorrent.qBittorrent"
     "com.tomjwatson.Emote"
     "dev.qwery.AddWater"
+    "me.iepure.devtoolbox"
 )
 
 # Function to install Flatpak apps
