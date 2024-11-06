@@ -6,6 +6,9 @@ I am trying to use Arch Linux on my main machine for my day-to-day work.
 - Minimize the need for fixing issues with the OS.
 - Stop distro-hopping for good (since 2010).
 
+## Logs
+1 month on Arch. No incident.
+
 
 ## Principles
 - Keep the actual Arch installation as simple as possible.
@@ -138,7 +141,6 @@ sudo systemctl enable --now switcheroo-control.service
 - [Newsflash](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
 - [Telegram](https://flathub.org/apps/org.telegram.desktop)
 - [Mousai](https://flathub.org/apps/io.github.seadve.Mousai)
-- [Motrix](https://flathub.org/apps/net.agalwood.Motrix)
 - [Geary](https://flathub.org/apps/org.gnome.Geary)
 - [Dialect](https://flathub.org/apps/app.drey.Dialect)
 - [Video Trimmer](https://flathub.org/apps/org.gnome.gitlab.YaLTeR.VideoTrimmer)
@@ -165,13 +167,14 @@ sudo systemctl enable --now switcheroo-control.service
 - [Iconic](https://flathub.org/apps/nl.emphisia.icon)
 - [qBittorrent](https://flathub.org/apps/org.qbittorrent.qBittorrent)
 - [Emote](https://flathub.org/apps/com.tomjwatson.Emote)
-- [Add Water](https://flathub.org/apps/dev.qwery.AddWater)
 - [Dev Toolbox](https://flathub.org/apps/me.iepure.devtoolbox)
+- [HandBrake](https://flathub.org/apps/fr.handbrake.ghb)
+- [Gapless](https://flathub.org/apps/com.github.neithern.g4music)
 
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox-developer-edition otf-fira-sans otf-fira-mono plymouth inter-font ufw python-openai python-polib poedit
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox otf-fira-sans otf-fira-mono plymouth inter-font ufw python-openai python-polib poedit geany geany-plugins
 ```
 
 **AUR**
@@ -182,6 +185,7 @@ gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daem
 - [visual-studio-code-bin](https://aur.archlinux.org/packages/visual-studio-code-bin)
 - [mutter-performance](https://aur.archlinux.org/packages/mutter-performance)
 - [adobe-base-14-fonts](https://aur.archlinux.org/packages/adobe-base-14-fonts)
+- [ttf-segoe-ui-variable](https://aur.archlinux.org/packages/ttf-segoe-ui-variable)
 - [EnvyControl](https://github.com/bayasdev/envycontrol)
 
 to set graphics mode to integrated:
@@ -250,6 +254,7 @@ After loging to Jetbrains account and activing it, I created the desktop entry f
 OR get it from AUR:
 [phpstorm-eap](https://aur.archlinux.org/packages/phpstorm-eap)
 
+- [Xtreme Download Manager](https://github.com/subhra74/xdm)
 
 **Brave Extensions**
 

@@ -7,7 +7,6 @@ flatpaks=(
     "io.gitlab.news_flash.NewsFlash"
     "org.telegram.desktop"
     "io.github.seadve.Mousai"
-    "net.agalwood.Motrix"
     "org.gnome.Geary"
     "app.drey.Dialect"
     "org.gnome.gitlab.YaLTeR.VideoTrimmer"
@@ -34,8 +33,8 @@ flatpaks=(
     "nl.emphisia.icon"
     "org.qbittorrent.qBittorrent"
     "com.tomjwatson.Emote"
-    "dev.qwery.AddWater"
     "me.iepure.devtoolbox"
+    "com.github.neithern.g4music"
 )
 
 # Function to install Flatpak apps
