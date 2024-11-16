@@ -171,7 +171,7 @@ sudo systemctl enable --now switcheroo-control.service
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox otf-fira-sans otf-fira-mono plymouth inter-font ufw python-openai python-polib poedit geany geany-plugins python-nautilus python-secretstorage python-pygit2 python-dbus meld python-gitdb
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox otf-fira-sans otf-fira-mono plymouth inter-font ufw python-openai python-polib poedit geany geany-plugins python-nautilus python-secretstorage python-pygit2 python-dbus meld
 ```
 
 **AUR**
@@ -262,6 +262,7 @@ OR get it from AUR:
 - [uBlock Origin](https://ublockorigin.com/)
 - [Web Clipper](https://obsidian.md/clipper)
 - [User-Agent Switcher and Manager](https://chromewebstore.google.com/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg)
+- [RTL toggle](https://chromewebstore.google.com/detail/rtl-toggle/diimdfmlegodnjbcgajllidffehegdbc)
 
 ### Kernel Parameters
 
