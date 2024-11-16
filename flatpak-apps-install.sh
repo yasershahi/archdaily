@@ -35,6 +35,9 @@ flatpaks=(
     "com.tomjwatson.Emote"
     "me.iepure.devtoolbox"
     "com.github.neithern.g4music"
+    "com.spotify.Client"
+    "com.usebottles.bottles"
+    "org.remmina.Remmina"
 )
 
 # Function to install Flatpak apps

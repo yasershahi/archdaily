@@ -170,6 +170,9 @@ sudo systemctl enable --now switcheroo-control.service
 - [Dev Toolbox](https://flathub.org/apps/me.iepure.devtoolbox)
 - [HandBrake](https://flathub.org/apps/fr.handbrake.ghb)
 - [Gapless](https://flathub.org/apps/com.github.neithern.g4music)
+- [Spotify](https://flathub.org/apps/com.spotify.Client)
+- [Bottles](https://flathub.org/apps/com.usebottles.bottles)
+- [Remmina](https://flathub.org/apps/org.remmina.Remmina)
 
 **Packages from Arch Repos**
 
