@@ -166,11 +166,12 @@ sudo systemctl enable --now switcheroo-control.service
 - [Spotify](https://flathub.org/apps/com.spotify.Client)
 - [Bottles](https://flathub.org/apps/com.usebottles.bottles)
 - [Remmina](https://flathub.org/apps/org.remmina.Remmina)
+- [Turtle](https://flathub.org/apps/de.philippun1.turtle)
 
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox otf-fira-sans otf-fira-mono plymouth inter-font ufw python-openai python-polib poedit geany geany-plugins
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox otf-fira-sans otf-fira-mono plymouth inter-font ufw python-openai python-polib poedit geany geany-plugins python-nautilus python-secretstorage python-pygit2 python-dbus meld python-gitdb
 ```
 
 **AUR**

@@ -34,6 +34,7 @@ flatpaks=(
     "com.github.neithern.g4music"
     "com.spotify.Client"
     "org.remmina.Remmina"
+    "de.philippun1.turtle"
 )
 
 # Function to install Flatpak apps
