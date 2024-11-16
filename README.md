@@ -31,7 +31,6 @@ dconf dump /org/gnome/ > desktop-config
 - Authenticator
 - Newsflash
 - EassyEffects Presets
-- Errands
 - Browser
 
 **Backup System Data**
