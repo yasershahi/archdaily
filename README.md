@@ -6,6 +6,7 @@ I am trying to use Arch Linux on my main machine for my day-to-day work.
 - Minimize the need for fixing issues with the OS.
 - Stop distro-hopping for good (since 2010).
 
+
 ## Logs
 1 month on Arch. No incident.
 
@@ -30,7 +31,6 @@ dconf dump /org/gnome/ > desktop-config
 
 - Authenticator
 - Newsflash
-- EassyEffects Presets
 - Browser
 
 **Backup System Data**
@@ -40,9 +40,6 @@ dconf dump /org/gnome/ > desktop-config
 - SSH
 - gitconfig
 - bashrc
-
-
-
 
 
 ## Installation Process
@@ -64,6 +61,7 @@ I proceeded with a mostly default installation using `archinstall`, configuring 
 - Chose GNOME desktop as type of installation.
 
 The installation was very quick, and I encountered no issues.
+
 
 ## Post-install
 Set the fastest mirrors:
@@ -89,10 +87,9 @@ Edit `/etc/pacman.conf`
 - Add "ILoveCandy"
 - Uncomment "ParallelDownloads"
 
-
 **Remove Stuff**
 ```
-sudo pacman -Rs gnome-tour  gnome-music  gnome-software 
+sudo pacman -Rs gnome-tour  gnome-music  gnome-software gnome-connections
 ```
 
 **Restore GNOME-specific Settings**
@@ -141,11 +138,8 @@ sudo systemctl enable --now switcheroo-control.service
 - [Telegram](https://flathub.org/apps/org.telegram.desktop)
 - [Mousai](https://flathub.org/apps/io.github.seadve.Mousai)
 - [Geary](https://flathub.org/apps/org.gnome.Geary)
-- [Dialect](https://flathub.org/apps/app.drey.Dialect)
 - [Video Trimmer](https://flathub.org/apps/org.gnome.gitlab.YaLTeR.VideoTrimmer)
-- [Errands](https://flathub.org/apps/io.github.mrvladus.List)
 - [Contrast](https://flathub.org/apps/org.gnome.design.Contrast)
-- [Sly](https://flathub.org/apps/page.kramo.Sly)
 - [Inkscape](https://flathub.org/apps/org.inkscape.Inkscape)
 - [Tagger](https://flathub.org/apps/org.nickvision.tagger)
 - [Decibels](https://flathub.org/apps/org.gnome.Decibels)
@@ -258,14 +252,14 @@ OR get it from AUR:
 
 - [Xtreme Download Manager](https://github.com/subhra74/xdm)
 
-**Brave Extensions**
+**Chromium Extensions**
 
 - [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
 - [enhanced-h264ify](https://chromewebstore.google.com/detail/enhanced-h264ify/omkfmpieigblcllmkgbflkikinpkodlk)
 - [floccus bookmarks sync](https://chromewebstore.google.com/detail/floccus-bookmarks-sync/fnaicdffflnofjppbagibeoednhnbjhg)
 - [Open in WordPress playground](https://chromewebstore.google.com/detail/open-in-wordpress-playgro/khfpfafeepbfdhggfoalfmbhkmjkolmo)
 - [uBlock Origin](https://ublockorigin.com/)
-- [Wallabagger](https://chromewebstore.google.com/detail/wallabagger/gbmgphmejlcoihgedabhgjdkcahacjlj)
+- [Web Clipper](https://obsidian.md/clipper)
 - [User-Agent Switcher and Manager](https://chromewebstore.google.com/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg)
 
 ### Kernel Parameters

@@ -8,11 +8,8 @@ flatpaks=(
     "org.telegram.desktop"
     "io.github.seadve.Mousai"
     "org.gnome.Geary"
-    "app.drey.Dialect"
     "org.gnome.gitlab.YaLTeR.VideoTrimmer"
-    "io.github.mrvladus.List"
     "org.gnome.design.Contrast"
-    "page.kramo.Sly"
     "org.inkscape.Inkscape"
     "org.nickvision.tagger"
     "org.gnome.Decibels"
@@ -36,7 +33,6 @@ flatpaks=(
     "me.iepure.devtoolbox"
     "com.github.neithern.g4music"
     "com.spotify.Client"
-    "com.usebottles.bottles"
     "org.remmina.Remmina"
 )
 
