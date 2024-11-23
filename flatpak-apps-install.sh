@@ -20,7 +20,7 @@ flatpaks=(
     "com.getpostman.Postman"
     "com.mongodb.Compass"
     "fr.romainvigier.MetadataCleaner"
-    "com.belmoussaoui.Decoder"
+    "org.kde.kruler"
     "io.github.seadve.Kooha"
     "org.localsend.localsend_app"
     "app.devsuite.Ptyxis"

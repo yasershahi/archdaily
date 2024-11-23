@@ -150,7 +150,7 @@ sudo systemctl enable --now switcheroo-control.service
 - [Celluloid](https://flathub.org/apps/io.github.celluloid_player.Celluloid)
 - [MongoDB Compass](https://flathub.org/apps/com.mongodb.Compass)
 - [Metadata Cleaner](https://flathub.org/apps/fr.romainvigier.MetadataCleaner)
-- [Decoder](https://flathub.org/apps/com.belmoussaoui.Decoder)
+- [KRuler](https://flathub.org/apps/org.kde.kruler)
 - [Kooha](https://flathub.org/apps/io.github.seadve.Kooha)
 - [LocalSend](https://flathub.org/apps/org.localsend.localsend_app)
 - [Ptyxis](https://flathub.org/apps/app.devsuite.Ptyxis)
