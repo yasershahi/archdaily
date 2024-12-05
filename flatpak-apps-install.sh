@@ -35,6 +35,7 @@ flatpaks=(
     "com.spotify.Client"
     "org.remmina.Remmina"
     "de.philippun1.turtle"
+    "io.github.jliljebl.Flowblade"
 )
 
 # Function to install Flatpak apps
