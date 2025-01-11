@@ -8,8 +8,8 @@ I am trying to use Arch Linux on my main machine for my day-to-day work.
 
 
 ## Logs
-1 month on Arch. No incident.
-3 months on Arch. No incident.
+- 1 month on Arch. No incident.
+- 3 months on Arch. No incident.
 
 
 ## Principles
@@ -268,9 +268,13 @@ OR get it from AUR:
 - [RTL toggle](https://chromewebstore.google.com/detail/rtl-toggle/diimdfmlegodnjbcgajllidffehegdbc)
 
 **Firefox**
+
 about:config
+
 widget.gtk.non-native-titlebar-buttons.enabled=true
+
 widget.use-xdg-desktop-portal.file-picker=1
+
 media.ffmpeg.vaapi.enabled=true
 
 
