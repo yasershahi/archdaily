@@ -36,6 +36,7 @@ flatpaks=(
     "org.remmina.Remmina"
     "de.philippun1.turtle"
     "io.github.jliljebl.Flowblade"
+    "com.belmoussaoui.Obfuscate"
 )
 
 # Function to install Flatpak apps

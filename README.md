@@ -9,6 +9,7 @@ I am trying to use Arch Linux on my main machine for my day-to-day work.
 
 ## Logs
 1 month on Arch. No incident.
+3 months on Arch. No incident.
 
 
 ## Principles
@@ -168,11 +169,12 @@ sudo systemctl enable --now switcheroo-control.service
 - [Remmina](https://flathub.org/apps/org.remmina.Remmina)
 - [Turtle](https://flathub.org/apps/de.philippun1.turtle)
 - [Flowblade](https://flathub.org/apps/io.github.jliljebl.Flowblade)
+- [Obfuscate](https://flathub.org/apps/com.belmoussaoui.Obfuscate)
 
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox otf-fira-sans otf-fira-mono plymouth inter-font ufw python-openai python-polib poedit geany geany-plugins python-nautilus python-secretstorage python-pygit2 python-dbus meld filezilla unrar
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox otf-fira-sans otf-fira-mono plymouth inter-font ufw python-openai python-polib poedit geany geany-plugins python-nautilus python-secretstorage python-pygit2 python-dbus meld filezilla unrar yazi unzip 7zip ghostty
 ```
 
 **AUR**
@@ -264,6 +266,13 @@ OR get it from AUR:
 - [Web Clipper](https://obsidian.md/clipper)
 - [User-Agent Switcher and Manager](https://chromewebstore.google.com/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg)
 - [RTL toggle](https://chromewebstore.google.com/detail/rtl-toggle/diimdfmlegodnjbcgajllidffehegdbc)
+
+**Firefox**
+about:config
+widget.gtk.non-native-titlebar-buttons.enabled=true
+widget.use-xdg-desktop-portal.file-picker=1
+media.ffmpeg.vaapi.enabled=true
+
 
 ### Kernel Parameters
 
