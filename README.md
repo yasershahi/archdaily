@@ -1,6 +1,8 @@
 # Daily Driving Arch Linux
 I am trying to use Arch Linux on my main machine for my day-to-day work.
 
+> Using Arch as my daily driver was a great experience; however, I am switching to Fedora on this machine! There's nothing wrong with Arch; I just unlocked a new level of distro hopping! Hey, at least I used it for four months!
+
 ## Goals
 - Have a fast, reliable, and up-to-date PC to work with.
 - Minimize the need for fixing issues with the OS.
@@ -10,6 +12,7 @@ I am trying to use Arch Linux on my main machine for my day-to-day work.
 ## Logs
 - 1 month on Arch. No incident.
 - 3 months on Arch. No incident.
+- 4 months on Arch. No incident.
 
 
 ## Principles
