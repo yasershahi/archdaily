@@ -1,8 +1,6 @@
 # Daily Driving Arch Linux
 I am trying to use Arch Linux on my main machine for my day-to-day work.
 
-> Using Arch as my daily driver was a great experience; however, I am switching to Fedora on this machine! There's nothing wrong with Arch; I just unlocked a new level of distro hopping! Hey, at least I used it for four months!
-
 ## Goals
 - Have a fast, reliable, and up-to-date PC to work with.
 - Minimize the need for fixing issues with the OS.
@@ -154,7 +152,6 @@ sudo systemctl enable --now switcheroo-control.service
 - [Decibels](https://flathub.org/apps/org.gnome.Decibels)
 - [VLC](https://flathub.org/apps/org.videolan.VLC)
 - [Easy Effects](https://flathub.org/apps/com.github.wwmm.easyeffects)
-- [Postman](https://flathub.org/apps/com.getpostman.Postman)
 - [Dconf Editor](https://flathub.org/apps/ca.desrt.dconf-editor)
 - [Celluloid](https://flathub.org/apps/io.github.celluloid_player.Celluloid)
 - [MongoDB Compass](https://flathub.org/apps/com.mongodb.Compass)
@@ -178,6 +175,11 @@ sudo systemctl enable --now switcheroo-control.service
 - [Turtle](https://flathub.org/apps/de.philippun1.turtle)
 - [Flowblade](https://flathub.org/apps/io.github.jliljebl.Flowblade)
 - [Obfuscate](https://flathub.org/apps/com.belmoussaoui.Obfuscate)
+- [Refine](https://flathub.org/apps/page.tesk.Refine)
+- [Foliate](https://flathub.org/apps/com.github.johnfactotum.Foliate)
+- [Rnote](https://flathub.org/apps/com.github.flxzt.rnote)
+- [GPU Screen Recorder](https://flathub.org/apps/com.dec05eba.gpu_screen_recorder)
+- [ColorWall](https://flathub.org/apps/com.ktechpit.colorwall)
 
 **Packages from Arch Repos**
 
