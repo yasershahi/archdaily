@@ -131,7 +131,12 @@ sudo systemctl enable --now switcheroo-control.service
 - [Impatience](https://extensions.gnome.org/extension/277/impatience/)
 - [Language Switch Button](https://extensions.gnome.org/extension/7102/language-switch-button/)
 - [Tailscale QS](https://extensions.gnome.org/extension/6139/tailscale-qs/)
-- [Tiling Assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
+- [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/)
+- [Auto Adwaita Colors](https://extensions.gnome.org/extension/7529/auto-adwaita-colors/)
+- [Blocker](https://extensions.gnome.org/extension/7831/blocker/)
+- [Do Not Disturb While Screen Sharing Or Recording](https://extensions.gnome.org/extension/5985/do-not-disturb-while-screen-sharing-or-recording/)
+- [Gtk3 Auto Dark ](https://extensions.gnome.org/extension/7547/gtk3-auto-dark/)
+- [Void](https://extensions.gnome.org/extension/7571/void/)
 
 ### Apps & Packages
 
