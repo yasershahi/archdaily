@@ -1,5 +1,6 @@
 # Daily Driving Arch Linux
 I am trying to use Arch Linux on my main machine for my day-to-day work.
+> Using Arch as my daily driver was a great experience; however, I am switching to Fedora on this machine! There's nothing wrong with Arch; I just unlocked a new level of distro hopping! Hey, at least I used it for four months!
 
 ## Goals
 - Have a fast, reliable, and up-to-date PC to work with.
@@ -89,11 +90,6 @@ Edit `/etc/pacman.conf`
 - Add "ILoveCandy"
 - Uncomment "ParallelDownloads"
 
-**Remove Stuff**
-```
-sudo pacman -Rs gnome-tour  gnome-music  gnome-software gnome-connections
-```
-
 **Restore GNOME-specific Settings**
 
 ```
@@ -180,11 +176,13 @@ sudo systemctl enable --now switcheroo-control.service
 - [Rnote](https://flathub.org/apps/com.github.flxzt.rnote)
 - [GPU Screen Recorder](https://flathub.org/apps/com.dec05eba.gpu_screen_recorder)
 - [ColorWall](https://flathub.org/apps/com.ktechpit.colorwall)
+- [Nostalgia](https://flathub.org/apps/im.bernard.Nostalgia)
+- [Gromit-MPX](https://flathub.org/apps/net.christianbeier.Gromit-MPX)
 
 **Packages from Arch Repos**
 
 ```
-gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync lollypop subversion yt-dlp webp-pixbuf-loader kid3-common firefox otf-fira-sans otf-fira-mono plymouth inter-font ufw python-openai python-polib poedit geany geany-plugins python-nautilus python-secretstorage python-pygit2 python-dbus meld filezilla unrar yazi unzip 7zip ghostty
+gnome-browser-connector gst-plugin-pipewire gst-plugins-good power-profiles-daemon switcheroo-control bash-completion git ntfs-3g mkcert tailscale distrobox bc ttf-jetbrains-mono ffmpegthumbnailer dosfstools python-pipx pacman-contrib scrcpy micro wirguard-tools php composer jdk-openjdk rsync subversion yt-dlp webp-pixbuf-loader kid3-common firefox otf-fira-sans otf-fira-mono plymouth inter-font ufw python-openai python-polib poedit geany geany-plugins python-nautilus python-secretstorage python-pygit2 python-dbus meld filezilla unrar yazi unzip 7zip ghostty
 ```
 
 **AUR**
